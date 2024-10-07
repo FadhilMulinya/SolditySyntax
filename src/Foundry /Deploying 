@@ -1,10 +1,14 @@
+//first step
 forge create <file-name> --rpc-url <rpc-url> --interactive
+forge create Counter.sol --rpc-url http://fadhil.co --interactve
 
-//Preffered way
+//Preffered way with anvil
 forge create <File Name> --interactive
+forge create Counter.sol --interactve
 
 //with private key
 forge create Counter.sol --rpc-url  <rpc-url> --private-key <private-key> 
+forge create Counter.sol --rpc-url http://fadhil.co --private-key 0x1232456
 
 //checking your comand line history
 history
