@@ -2,3 +2,6 @@ forge create <file-name> --rpc-url <rpc-url> --interactive
 
 //Preffered way
 forge create <File Name> --interactive
+
+//with private key
+forge create Counter.sol --rpc-url  <rpc-url> --private-key <private-key> 
