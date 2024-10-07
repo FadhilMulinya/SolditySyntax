@@ -5,3 +5,9 @@ forge create <File Name> --interactive
 
 //with private key
 forge create Counter.sol --rpc-url  <rpc-url> --private-key <private-key> 
+
+//checking your comand line history
+history
+
+//clearing history 
+history -c
