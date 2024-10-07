@@ -15,3 +15,7 @@ history
 
 //clearing history 
 history -c
+
+//Deploying with scripts
+
+forge script script/Counter.s.sol
