@@ -16,6 +16,13 @@ history
 //clearing history 
 history -c
 
-//Deploying with scripts
-
+//Deploying with scripts with anvil closed
 forge script script/Counter.s.sol
+
+//Deploying with scripts when anvil is running without broadcast
+forge script script/Counter.s.sol --rpc-url 127.0.0.1:8545
+
+//Deploying with scripts and broadcasting it
+ forge script script/Counter.s.sol --rpc-url 127.0.0.1:8545 --broadcast --private-key ac0974bec3
+
+
