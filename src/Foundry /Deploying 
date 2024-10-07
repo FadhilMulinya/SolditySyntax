@@ -1,1 +1,4 @@
 forge create <file-name> --rpc-url <rpc-url> --interactive
+
+//Preffered way
+forge create <File Name> --interactive
